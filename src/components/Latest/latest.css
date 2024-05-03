@@ -1,0 +1,108 @@
+.latest{
+    padding: 2rem 2%;
+}
+.latest h3{
+    text-align: center;
+    padding: 1rem 0;
+}
+.latest .latestproducts{
+    display: flex;
+    /* flex-wrap: wrap; */ 
+   box-shadow:0px 0px 4px rgba(0,0,0,.1);
+    z-index: 1000;
+    height: auto;
+    align-items: center;justify-content: center;
+    background:rgba(0,0,0,.2);   
+    margin: 2rem 0;
+padding: 2rem 2rem;
+}
+
+.latest .latestproducts .latestImgContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.latest .latestproducts .latestImgContainer div{
+    padding: 1rem;
+    margin: 0.2rem 0;
+    background: rgba(0,0,0,.02);
+    border: 1px solid rgba(0,0,0,.2);
+}
+.latest .latestproducts .latestImgContainer div:hover{
+    background: rgba(0,0,0,.4);
+    transition: all 1s ease;
+    cursor: pointer;    box-shadow: 0 0 18px rgba(0,0,0,.5);
+
+}
+
+.latest .latestproducts .latestImgContainer .latestImgHover img{
+    height: 10rem;
+    width: 10rem;
+}
+.latest .latestproducts .latestimg{
+    margin:0 5rem !important;
+}
+.latest .latestproducts .latestimg img{
+    width: 50rem;
+    height: 50rem !important;
+}
+.latest .latestproducts .latestDescription .btn{
+    height: 3.5rem;
+    font-size: 1.9rem;
+    width: 15rem;
+}
+.latest .latestproducts .latestDescription p{
+    font-weight: lighter;
+    padding: .8rem 0;
+    color: rgba(0,0,0,.67);
+    max-width: 80%;
+}
+.latest .latestproducts .latestDescription div{
+    font-size: 2rem;
+    padding: 1rem 0;
+ 
+}
+.latest .latestproducts .latestDescription h6{
+    padding: 1rem 0;
+}
+@media (max-width:1300px) {
+    .latest .latestproducts .latestDescription p{
+        max-width: 90%;
+
+    }
+}
+@media (max-width:1000px) {
+    .latest .latestproducts .latestDescription p{
+        max-width: 100%;
+
+    }
+    .latest .latestproducts .latestImgContainer{
+        display: flex;
+  
+    }
+}
+@media (max-width:996px) {
+    .latest .latestproducts{
+        flex-wrap: wrap;
+    }
+    .latest .latestproducts .latestimg{
+        padding: 3rem 0;
+    }
+}
+@media (max-width:680px) {
+    .latest .latestproducts .latestImgContainer{
+            flex-direction: row;
+  margin: 2rem 0;
+    }
+}
+@media 
+(max-width:500px) {
+    .latest .latestproducts .latestimg img{
+        width: 40rem;
+        height: 50rem !important;
+    }
+    .latest .latestproducts .latestImgContainer .latestImgHover img{
+    width: 8rem;
+    height: 8rem;
+    }
+}

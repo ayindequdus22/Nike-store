@@ -1,0 +1,11 @@
+export {default as Products} from './Products/Products'
+export {default as Newsletter} from './Newsletter/Newsletter'
+export {default as Navbar} from './Navbar/Navbar'
+export {default as Body} from './Body/Body'
+export {default as TopSales} from './TopSales/TopSales'
+export {default as Latest} from './Latest/Latest'
+export {default as Header} from './Header/Header'
+export {default as Down} from './Down/Down'
+export {default as Testimonial} from './Testimonials/Testimonial'
+export {default as Footer} from './Footer/Footer'
+

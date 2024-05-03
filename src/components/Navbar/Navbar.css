@@ -1,0 +1,117 @@
+.navlinks{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 3rem 9%;
+    z-index: 500;
+}
+.navlinks.active{
+    position: fixed;
+    top: 0; transition: all 2s ease;
+    padding: 2rem 9%;
+    right: 0;
+    left: 0;bottom: 0;
+  backdrop-filter: blur(3rem);
+    box-shadow: 2px 3px 4px rgba(0,0,0,.3);
+}
+.navlinks .fa{
+    font-size: 2rem;
+}
+.navlinks .fa-bars,.fa-times{
+    display: none;
+    cursor: pointer;
+}
+.navlinks .icons{
+    display: flex;
+}
+.navlinks .links{
+    display: flex;
+}
+.navlinks .links > *{
+    margin: 0 1.8rem;
+}
+.navlinks .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks .icons .fa{
+    margin: 0px 1.3rem;
+    position: relative;
+    cursor: pointer;
+}
+.navlinks .icons .fa:hover{
+    color: var(--pink);
+}
+.navlinks .icons .fa > *{
+    position: absolute;
+    line-height: 2.3rem;
+    width: 2.2rem;
+    padding-top: .2rem;
+    font-size: 1.7rem;
+    background-color: var(--pink);
+    text-align: center;
+    top: -1.7rem;
+    color: black  !important;
+    right: -1rem;
+    border-radius:3rem;
+}
+.navlinks .icons .total{
+    padding: 0 0 0 1.4rem;
+}
+@media (max-width:770px){
+    .navlinks{
+        position: relative;
+    }
+    .navlinks > .links{
+        position: absolute;
+        flex-direction: column;
+ top: 0;
+text-align: center;
+      left: -30rem;
+      transition: all 2s ease;
+        width: 30rem;
+        height: 45vh;
+        background: #fff;
+        z-index: 1;
+box-shadow: 0 0 18px rgba(0,0,0,.3);
+    }
+    .navlinks > .links.active {
+  left: 0;
+    }
+
+.navlinks .links a:nth-child(1){
+    margin-top: 8rem;
+}
+.navlinks > .links a:not(.not){
+    border-bottom: 1px solid rgb(0, 0, 0,.1);
+
+}
+.navlinks > .links a{
+     padding: 1.9rem 0;
+    font-size: 2.5rem; 
+}
+    .navlinks .fa-bars,.fa-times{
+        display: block;
+    }  
+    .navlinks .fa-times{
+        position: absolute;
+        right: 0;
+        font-size: 4rem;
+    z-index: 1000;
+margin: 3rem 2rem;
+   line-height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    justify-content: center;
+    border-radius: 3rem;
+    } 
+    .navlinks .fa-times:hover{
+       background-color: var(--pink);  
+       transition: all 1s ease;
+       cursor: pointer;
+    }
+}

@@ -1,0 +1,63 @@
+.testimonials h3{
+text-align: center;
+padding: 1rem 0;
+transition: all 2s ease !important;
+}
+.testimonials {
+    padding:3rem 9% 6rem;
+    transition: all 5s ease;
+
+}
+.testimonials .testimonialContainer{
+    display: flex;
+gap:1.9rem;
+flex-wrap: wrap;
+justify-content: center;
+}
+.testimonials .testimonialContainer .testimonial .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.testimonials .testimonialContainer .testimonial .image {
+        height: 30rem;
+        width: 30rem;
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+    object-fit:cover;
+}
+.testimonials .testimonialContainer .testimonial .image img{
+    display: none;opacity: 0;
+}
+.testimonials .testimonialContainer .testimonial .image .img1
+{
+    display: block;
+    opacity: 1;
+}
+.testimonials .testimonialContainer .testimonial .details p:nth-child(1){
+    text-transform: capitalize;
+    opacity: .5;
+color:var(--pink)
+}
+.testimonials .testimonialContainer .testimonial .details a{
+    font-weight: bolder;
+   
+}
+.testimonials .testimonialContainer .testimonial:hover .image .img2{
+display: block;  opacity: 1;
+animation: animate 2s ease;
+}
+.testimonials .testimonialContainer .testimonial:hover .image .img1{
+display: none;  
+
+    }
+    @keyframes animate {
+        0%{
+            opacity:0;
+        }
+        50%{
+            opacity:0.5
+        }
+      
+    }

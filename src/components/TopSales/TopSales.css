@@ -1,0 +1,56 @@
+
+.topsales{
+    padding: 2rem 9%;
+}
+.topsales h3{
+    text-align: center;
+}
+.topsales .topsalesContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap:3rem;
+    margin: 1.3rem 0;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.topsales .topsalesContainer .topsalesItems{
+    background:  rgba(0,0,0,.3);
+margin: .5rem 0; 
+   width: 32rem;
+    position: relative;
+    display: flex;
+   
+    text-align: center;
+    flex-direction: column;
+    align-items: center ;
+    border-radius: 1rem;
+        box-shadow: 1px 1px 8px #000000;
+        overflow: hidden;
+        
+}
+.topsales .topsalesContainer .topsalesItems .descriptions {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: inherit !important;
+    align-items: center;
+    margin: 0rem 0 2rem;
+    padding: 1rem 2rem 0rem 0 !important;
+}
+.topsales .topsalesContainer .topsalesItems .descriptions div{
+    padding: 1rem 0;font-size: 2rem;
+}
+.topsales .topsalesContainer .topsalesItems .descriptions p{
+    padding: 1rem 0 ;
+font-weight: bolder;
+}
+.topsales .topsalesContainer .topsalesItems .image img{
+    height: 20rem;
+    width: 30rem;
+    object-fit:scale-down;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+}
