@@ -23,12 +23,10 @@ text-align: center;
     cursor: pointer;
 }
 .heroContainer .content h4{
-    color: rgba(0,0,0,.4);
+     color:rgba(0,0,0,.67);
     padding: 1rem 0;
     font-size: 5rem;
-    padding: 1rem 0 ;
- font-weight: lighter;
-
+    padding: 1rem 0;
 }
 .heroContainer .content h1{
     padding: 1rem 0;
