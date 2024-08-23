@@ -69,8 +69,7 @@ right: 2rem;
 }
 
 .products .productContainer .product .descriptions p{
-    padding: 1rem 0 ;
-font-weight: bolder;
+    padding: 1rem 0;
 }
 .products .productContainer .product .descriptions .star{
     padding:0 0 1rem;
@@ -85,7 +84,7 @@ font-weight: bolder;
 .products .productContainer .product .image img{
     height: 20rem;
     width: 27rem;
-    object-fit:scale-down;
+    object-fit:cover;
     padding: 0.5rem 1rem;
     margin: 1rem;
     background-color: aliceblue;
