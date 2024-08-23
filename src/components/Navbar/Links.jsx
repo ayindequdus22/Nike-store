@@ -33,7 +33,7 @@ useEffect(() => {
  
  <div className="fa fa-bars" onClick={show}></div>
  <Link to='/'>
-<p style={{fontSize:'2rem'}}>Anteqs</p></Link>
+<p style={{fontSize:'2rem'}}>Nike Store</p></Link>
  <div className="links">
     <Link to='/'>
     Home
